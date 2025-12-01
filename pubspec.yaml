@@ -1,0 +1,40 @@
+name: quizoo
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get_it: ^9.1.1
+  dio: ^5.9.0
+  provider: ^6.1.5+1
+  html_unescape: ^2.0.0
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # 1. We declare the tool here
+  flutter_launcher_icons: ^0.13.1
+  
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: ArchitectsDaughter
+      fonts:
+        - asset: assets/Fonts/ArchitectsDaughter-Regular.ttf
+
+# 2. We configure the tool here (Must be at the far left/root level)
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"
+  
