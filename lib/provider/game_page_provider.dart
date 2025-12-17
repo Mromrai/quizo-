@@ -18,11 +18,11 @@ class GamepageProvider extends ChangeNotifier {
   BuildContext context;
   final List<Map<String, dynamic>> _myQuestions = [
     // my personal questions
-    {
-      "question": "Will You Marry Mr_Rai?",
-      "correct_answer": "True",
-      "incorrect_answers": ["False"],
-    },
+    // {
+    //   "question": "Will You Marry Mr_Rai?",
+    //   "correct_answer": "True",
+    //   "incorrect_answers": ["False"],
+    // },
     {
       "question":
           "If a statement is always true in every possible scenario, it is called a tautology.",
